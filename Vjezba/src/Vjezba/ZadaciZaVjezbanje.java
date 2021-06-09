@@ -10,7 +10,7 @@ public class ZadaciZaVjezbanje {
 		  For example assigning grades (A, B, C) based on percentage obtained by a student.
 			if the percentage is above 90, assign grade A
 			if the percentage is above 75, assign grade B
-			if the percentage is above 65, assign grade C*/
+			if the percentage is above 65, assign grade C
 		 
 		int ocjena;
 		
@@ -21,9 +21,22 @@ public class ZadaciZaVjezbanje {
 			System.out.println("assign grade B");
 		}else {
 			System.out.println("assign grade C");
+		}*/
+		
+		
+		/*Write a Java program to get a number from the user and print whether it is positive or negative*/
+		
+		int broj;
+		
+		broj = Integer.parseInt(JOptionPane.showInputDialog("unesi broj"));
+		
+		if (broj > 0) {
+			System.out.println("broj je pozitivan");
+		}else if ( broj<0){
+			System.out.println("broj je negativan");
+		}else {
+			System.out.println("broj je 0");
 		}
-		
-		
 		
 		
 		
