@@ -39,7 +39,7 @@ public class ZadaciZaVjezbanje {
 		}*/
 		
 		
-		/*Take three numbers from the user and print the greatest number.*/
+		/*Take three numbers from the user and print the greatest number.
 		
 		int prviBroj, drugiBroj, treciBroj;
 		
@@ -53,7 +53,23 @@ public class ZadaciZaVjezbanje {
 			System.out.println("Najveci broj je " + drugiBroj);
 		}else if ( treciBroj>prviBroj && treciBroj>drugiBroj) {
 			System.out.println("Najveci broj je " + treciBroj);
+		}*/
+		
+		/*Write a Java program that reads a floating-point number and prints "zero" if the number is zero. 
+		 * Otherwise, print "positive" or "negative". */
+		
+		float broj;
+		
+		broj = Float.parseFloat(JOptionPane.showInputDialog("unesi decimalni broj"));
+		
+		if ( broj == 0) {
+			System.out.println("Broj je 0");
+		}else if ( broj > 0) {
+			System.out.println("positive");
+		}else if (broj < 0) {
+			System.out.println("negative");
 		}
+		
 		
 		
 		
