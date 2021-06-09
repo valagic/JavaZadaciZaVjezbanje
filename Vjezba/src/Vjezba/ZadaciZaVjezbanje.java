@@ -24,7 +24,7 @@ public class ZadaciZaVjezbanje {
 		}*/
 		
 		
-		/*Write a Java program to get a number from the user and print whether it is positive or negative*/
+		/*Write a Java program to get a number from the user and print whether it is positive or negative
 		
 		int broj;
 		
@@ -36,12 +36,24 @@ public class ZadaciZaVjezbanje {
 			System.out.println("broj je negativan");
 		}else {
 			System.out.println("broj je 0");
+		}*/
+		
+		
+		/*Take three numbers from the user and print the greatest number.*/
+		
+		int prviBroj, drugiBroj, treciBroj;
+		
+		prviBroj = Integer.parseInt(JOptionPane.showInputDialog("Unesi prvi broj"));
+		drugiBroj = Integer.parseInt(JOptionPane.showInputDialog("Unesi drugi broj"));
+		treciBroj = Integer.parseInt(JOptionPane.showInputDialog("Unesi treci broj"));
+		
+		if (prviBroj>drugiBroj && prviBroj>treciBroj) {
+			System.out.println("Najveci broj je " + prviBroj);
+		}else if ( drugiBroj>treciBroj && drugiBroj>prviBroj) {
+			System.out.println("Najveci broj je " + drugiBroj);
+		}else if ( treciBroj>prviBroj && treciBroj>drugiBroj) {
+			System.out.println("Najveci broj je " + treciBroj);
 		}
-		
-		
-		
-		
-		
 		
 		
 		
