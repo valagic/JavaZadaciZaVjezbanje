@@ -73,6 +73,7 @@ public class ZadaciZaVjezbanje {
 			}else {
 				System.out.println("Positive number");
 			}
+			// Math.abs() returns the absolute value of a given argument.
 		}else if (broj < 0) {
 			if ( Math.abs(broj) < 1) {
 			System.out.println("Negative small number");
