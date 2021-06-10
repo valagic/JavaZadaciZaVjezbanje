@@ -91,7 +91,7 @@ public class ZadaciZaVjezbanje {
 		}*/
 		
 		//zadatak
-		/*Write a Java program that keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.*/
+		/*Write a Java program that keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.
 		
 		int broj;
 		
@@ -118,8 +118,74 @@ public class ZadaciZaVjezbanje {
 		    break;
 		  case 7:
 			  System.out.println("Sunday");
-		}
+		}*/
 		
+		
+		
+		//zadatak
+		/*Write a Java program to find the number of days in a month.*/
+		
+		
+		int mjesec,godina,brojDana = 0;
+		String imeMjeseca = "Unknown";
+		
+		mjesec = Integer.parseInt(JOptionPane.showInputDialog("Izaberi jedan broj koji ce predstavljat mjesec"));
+		godina = Integer.parseInt(JOptionPane.showInputDialog("Izaberi godinu"));
+		
+		switch (mjesec) {
+		  case 1:
+			  imeMjeseca = "Sijecanj";
+			  brojDana = 31;
+		    break;
+		  case 2:
+			  imeMjeseca = "Veljaca";
+              if ((godina % 400 == 0) || ((godina % 4 == 0) && (godina % 100 != 0))) {
+            	  brojDana = 29;
+              } else {
+            	  brojDana = 28;
+              }
+		    break;
+		  case 3:
+			  imeMjeseca = "Ozujak";
+			  brojDana = 31;
+              break;
+		  case 4:
+			  imeMjeseca = "Travanj";
+			  brojDana = 30;
+		    break;
+		  case 5:
+			  imeMjeseca = "Svibanj";
+			  brojDana = 31;
+		    break;
+		  case 6:
+			  imeMjeseca = "Lipanj";
+			  brojDana = 30;
+		    break;
+		  case 7:
+			  imeMjeseca = "Srpanj";
+			  brojDana = 31;
+			break;
+		  case 8:
+			  imeMjeseca = "Kolovoz";
+			  brojDana = 31;
+			break;
+		  case 9:
+			  imeMjeseca = "Rujan";
+			  brojDana = 30;
+			break;
+		  case 10:
+			  imeMjeseca = "Listopad";
+			  brojDana = 31;
+			break;
+		  case 11:
+			  imeMjeseca = "Studeni";
+			  brojDana = 30;
+			break;
+		  case 12:
+			  imeMjeseca = "Prosinac";
+			  brojDana = 31;
+			}
+		System.out.println(imeMjeseca + " " +  godina + " ima " + brojDana + " dana\n");
 		
 		
 		
