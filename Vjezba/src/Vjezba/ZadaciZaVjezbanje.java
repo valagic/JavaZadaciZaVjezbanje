@@ -23,7 +23,7 @@ public class ZadaciZaVjezbanje {
 			System.out.println("assign grade C");
 		}*/
 		
-		
+		//zadatak
 		/*Write a Java program to get a number from the user and print whether it is positive or negative
 		
 		int broj;
@@ -39,6 +39,8 @@ public class ZadaciZaVjezbanje {
 		}*/
 		
 		
+		
+		//zadatak
 		/*Take three numbers from the user and print the greatest number.
 		
 		int prviBroj, drugiBroj, treciBroj;
@@ -55,9 +57,12 @@ public class ZadaciZaVjezbanje {
 			System.out.println("Najveci broj je " + treciBroj);
 		}*/
 		
+		
+		
+		//zadatak
 		/*Write a Java program that reads a floating-point number and prints "zero" if the number is zero. 
 		 * Otherwise, print "positive" or "negative". 
-		 * Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.*/
+		 * Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.
 		
 		float broj;
 		
@@ -83,7 +88,43 @@ public class ZadaciZaVjezbanje {
 				System.out.println("Negative number");
 			}
 			
+		}*/
+		
+		//zadatak
+		/*Write a Java program that keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.*/
+		
+		int broj;
+		
+		broj = Integer.parseInt(JOptionPane.showInputDialog("izaberi dan"));
+		
+		switch (broj) {
+		  case 1:
+		    System.out.println("Monday");
+		    break;
+		  case 2:
+			 System.out.println("Tuesday");
+		    break;
+		  case 3:
+			  System.out.println("Wednesday");
+		    break;
+		  case 4:
+			  System.out.println("Thursday");
+		    break;
+		  case 5:
+			  System.out.println("Friday");
+		    break;
+		  case 6:
+			  System.out.println("Saturday");
+		    break;
+		  case 7:
+			  System.out.println("Sunday");
 		}
+		
+		
+		
+		
+		
+		
 		
 		
 		
